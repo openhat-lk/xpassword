@@ -125,7 +125,7 @@ p {
 }
 
 input:checked + .slider_round {
-    background-color: #943bff;
+    background-color:#00a2ff;
 }
 
 input:focus + .slider_round {
