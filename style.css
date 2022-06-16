@@ -12,7 +12,7 @@ body {
     justify-content: center;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to right, #8360c3, #2ebf91)
+    background: #202124
 }
 
 .container {
