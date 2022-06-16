@@ -21,6 +21,13 @@ copybtnDOM.addEventListener('click', () => {
     const textarea = document.createElement('textarea');
     const passwordToCopy = resultDOM.innerText;
     // Edge Case when Password is Empty
+     if (!passwordToCopy) return;
+    // Copy Functionality
+    textarea.value = passwordToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    textarea.remove();
     
 });
 // Checking the options that are selected and setting the password
