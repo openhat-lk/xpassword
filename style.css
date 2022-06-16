@@ -12,16 +12,16 @@ body {
     justify-content: center;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
-    background: #202124
+    background: #ffffff
 }
 
 .container {
     color: white;
     padding: 1rem 1.5rem;
-    border: 1px solid black;
+    border: .5mm solid rgb(138 141 145) ;
     border-radius: 10px;
     width: 350px;
-    background-color: #0b0f30;
+    background-color: #fffff;
 }
 
 h2 {
