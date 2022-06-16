@@ -60,11 +60,11 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    background: #fafafa;
+    
     border-radius: 8px;
     margin-left: 10px;
-    color: #8a8d91;
-    border: .5mm solid rgb(138 141 145);
+    color: #006dff;
+    
 }
 
 .result-container #result {
