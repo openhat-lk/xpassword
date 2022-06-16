@@ -154,6 +154,7 @@ input:checked + .slider_round:before {
 .btn {
 
     user-select: none;
+    font-family: Inter, sans-serif;
     position: relative;
     margin: 10px 10px;
     padding: 14px 54px;
