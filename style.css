@@ -18,8 +18,7 @@ body {
 .container {
     color: white;
     padding: 1rem 1.5rem;
-    border: .5mm solid rgb(138 141 145) ;
-    border-radius: 10px;
+   
     width: 350px;
     background-color: #fffff;
 }
@@ -37,8 +36,9 @@ h2 {
     padding: 10px;
     background: #fafafa;
     border-radius: 8px;
+     color: #8a8d9;
     border: .5mm solid rgb(138 141 145);
-    color: #8a8d9;
+   
 }
 
 .option #length {
