@@ -32,11 +32,11 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: black;
     margin: 10px;
     padding: 10px;
     background: #fafafa;
     border-radius: 8px;
-     color: #8a8d9;
     border: .5mm solid rgb(138 141 145);
    
 }
