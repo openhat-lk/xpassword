@@ -35,8 +35,9 @@ h2 {
     align-items: center;
     margin: 10px;
     padding: 10px;
-    background: #1e2240;
+    background: #fafafa;
     border-radius: 8px;
+    color: #8a8d9
 }
 
 .option #length {
