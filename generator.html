@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Password Generator</title>
+</head>
+
+<body>
+<form id="passwordGeneratorForm">
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="result__container"><span id="result"></span>
+            <button id="copy"><img src="copy.png"></img>
+            </button>
+        </div>
+        <p>LENGTH: <span id="demo"></span></p>
+        <div class="options">
+            <div class="option"> 4
+                <input type="range" min="4" max="32" value="15" class="lslider" id="length">32
+            </div>
+            <p>SETTINGS</p>
+            <div class="option">
+                <label>Include Uppercase</label>
+                <label class="switch">
+                    <input type="checkbox" id="uppercase" checked> <span class="slider_round"></span>
+                </label>
+            </div>
+            <div class="option">
+                <label>Include Lowecase</label>
+                <label class="switch">
+                    <input type="checkbox" id="lowercase" checked> <span class="slider_round"></span> </label>
+            </div>
+            <div class="option">
+                <label>Include Numbers</label>
+                <label class="switch">
+                    <input type="checkbox" id="numbers" checked> <span class="slider_round"></span> </label>
+            </div>
+            <div class="option">
+                <label>Include Symbols</label>
+                <label class="switch">
+                    <input type="checkbox" id="symbols" checked> <span class="slider_round"></span> </label>
+            </div>
+            <button class="btn" id="generate" type="submit">Generate Password</button>
+        </div>
+
+    </div>
+</form>
+<script src="javaScript.js"></script>
+</body>
+
+</html>
